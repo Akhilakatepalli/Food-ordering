@@ -1,0 +1,185 @@
+/*
+Author: Akhila Katepalli;
+Theme: Restaurant Order;
+version: 1.0;
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear:both;
+    float: none;
+}
+a{
+    color:#fd79a8;
+    text-decoration: none;
+    margin-bottom: 2%;
+}
+a.hover{
+    color: #e84393;
+}
+.btn{
+    padding: 1%;
+    bottom: none;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8%;
+    
+}
+.btn-primary{
+    background-color: #e84393;
+    color: white;
+    cursor: pointer;
+
+}
+.btn-primary:hover{
+    background-color: #fd79a8;
+}
+.float-container{
+    position: relative;
+    border: none;
+}
+.float-text{
+    position: absolute;
+    bottom: 9%;
+    left: 40%;
+}
+/* css for navbar section */
+.logo{
+    
+    width: 200px;
+    
+}
+.menu{
+    line-height: 0px;
+}
+.img-responsive{
+    width: 100%;
+}
+.menu ul{
+    list-style: none;
+    display: inline;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+h2{
+    color:#353b48 ;
+    font: 5rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1rem;
+}
+/* css for the serch section */
+.food-search{
+    background-image: url(../images/bg.jpg);
+    padding: 7%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.food-search input[type="search"]{
+    width:50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/* css for the categories*/
+.categories{
+    padding: 4% 0%;
+}
+.box-5{
+    
+    float: left;
+    width: 15%;
+    margin: 2%;
+    bottom: 20%;
+}
+/* css for food menu */
+.food-menu{
+    background-color: #ecececc5; 
+    box-sizing: border-box;
+    align-items: stretch;
+    
+}
+.Food-menu-box {
+    
+    width: 35%;
+    margin: 0 2cm; 
+    gap: 4px;
+    padding: 1%;
+    display: inline-block; 
+    background-color: white;
+    border-radius: 15px;
+    float: none;
+    overflow: hidden;
+    justify-content: space-between; 
+    height: 130px;
+    margin-left: 2.2cm;
+    
+}
+.food-menu-img{
+    width: 15%;
+    float: left;
+}
+.food-menu-desc{
+    width: 50%;
+    margin-left: 8%;
+    font-size: 1rem;
+    float: left;
+}
+.food-price{
+    font-size: 0.8rem;
+    margin: 2% 0;
+}
+.food-details{
+    font-size: 0.6rem;
+    color: #979aa1;
+}
+.food-menu-img{
+    width: 90px; /* Set desired width */
+    height: 90px; /* Set desired height */
+    object-fit: cover; /* This will maintain the aspect ratio and cover the area */
+    
+}
+/*  css for social class */
+.social-ul{
+    list-style-type: none;
+
+}
+.social ul li{
+    display: none;
+}
+/* css for mobile size */
+
+
+
